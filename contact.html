@@ -1,0 +1,25 @@
+<form action="https://formsubmit.co/tucorreo@ejemplo.com" method="POST">
+  <!-- Redirección después de enviar -->
+  <input type="hidden" name="_next" value="https://usuario.github.io/gracias.html">
+  
+  <!-- Anti-spam -->
+  <input type="text" name="_honey" style="display:none">
+  
+  <!-- No captcha -->
+  <input type="hidden" name="_captcha" value="false">
+
+  <!-- Campos -->
+  <label>Nombre:
+    <input type="text" name="nombre" required>
+  </label><br>
+
+  <label>Email:
+    <input type="email" name="email" required>
+  </label><br>
+
+  <label>Mensaje:
+    <textarea name="mensaje" required></textarea>
+  </label><br>
+
+  <button type="submit">Enviar</button>
+</form>
